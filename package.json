@@ -3,8 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
- 
- "devDependencies": {
+  "scripts": {
+    "webpack-dev":"webpack-dev-server",
+    "webpack" :"webpack",
+    "dev":"npm run webpack-dev -- --mode development",
+    "prod":"npm run webpack -- --mode production"
+
+    
+  },
+  "devDependencies": {
     "@babel/core": "^7.0.0-beta.46",
     "@babel/preset-env": "^7.0.0-beta.46",
     "babel-loader": "^8.0.0-beta",
@@ -26,7 +33,8 @@
     "workbox-webpack-plugin": "^3.2.0"
   },
   "dependencies": {
-    "d3": "^5.1.0"
+    "d3": "^5.1.0",
+    "webpack-dev-server": "^3.1.14"
   },
   "keywords": [],
   "author": "",

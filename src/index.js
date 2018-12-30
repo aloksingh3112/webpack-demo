@@ -1,1 +1,2 @@
-console.log("hello world");
+// import {foo1} from './header';
+// console.log(foo1);
