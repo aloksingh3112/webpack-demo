@@ -8,9 +8,7 @@
     "webpack" :"webpack",
     "dev":"npm run webpack-dev -- --mode development",
     "prod":"npm run webpack -- --mode production"
-
-    
-  },
+},
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.46",
     "@babel/preset-env": "^7.0.0-beta.46",
