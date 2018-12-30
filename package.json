@@ -6,7 +6,7 @@
   "scripts": {
     "webpack-dev":"webpack-dev-server",
     "webpack" :"webpack",
-    "dev":"npm run webpack-dev -- --mode development",
+    "dev":"npm run webpack-dev -- --mode development --hot",
     "prod":"npm run webpack -- --mode production"
 },
   "devDependencies": {
